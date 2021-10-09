@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>iit</title>
       </Head>
-      
+      {/* Test */}
       <h1 className='h1'>Welcome to International Institute of Theravada</h1>
     </div>
   );
