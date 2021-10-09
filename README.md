@@ -1,5 +1,7 @@
 # Installation Steps
 
+Make sure to download Node.js to your development environment
+
 ## Using npm
 
 Run commands
