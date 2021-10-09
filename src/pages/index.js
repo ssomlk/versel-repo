@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>IIT</title>
+        <title>iit</title>
       </Head>
       
       <h1 className='h1'>Welcome to International Institute of Theravada</h1>
