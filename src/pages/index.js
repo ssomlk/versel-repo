@@ -14,6 +14,7 @@ export default function Home() {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="international institute of theravada" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
 
       <h1 className='h1'>{t('common:greeting')}</h1>
