@@ -4,6 +4,8 @@ import { useRouter } from "next/router";
 import Link from 'next/link'
 
 import { Button } from 'react-bootstrap';
+import AudioComponent from "../components/AudioComponent";
+import AudioComponent2 from "../components/AudioComponent2";
 
 export default function Home() {
   let { t } = useTranslation();
@@ -30,6 +32,12 @@ export default function Home() {
         <Button variant="light">Light</Button> <Button variant="dark">Dark</Button>{' '}
         <Button variant="link">Link</Button>
       </div>
+
+      <h5>Using React-Player</h5>
+      <AudioComponent/>
+
+      <h5>Using React-audio-Player</h5>
+      <AudioComponent2/>
 
       <footer>
         <ul>
