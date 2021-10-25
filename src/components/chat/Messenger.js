@@ -1,6 +1,6 @@
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
-function MessengerComponent() {
+function MessengerComponent({ lang }) {
     return (
         <div>
             <MessengerCustomerChat

@@ -41,7 +41,7 @@ export default function Home() {
       <h5>Using React-audio-Player</h5>
       <AudioComponent2/>
 
-      <MessengerComponent/>
+      <MessengerComponent lang={lang}/>
 
       <footer>
         <ul>
