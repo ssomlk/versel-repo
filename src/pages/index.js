@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { Button } from 'react-bootstrap';
 import AudioComponent from "../components/AudioComponent";
 import AudioComponent2 from "../components/AudioComponent2";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default function Home() {
   let { t } = useTranslation();
@@ -38,6 +39,14 @@ export default function Home() {
 
       <h5>Using React-audio-Player</h5>
       <AudioComponent2/>
+
+      <div>
+        <h5>FB messenger</h5>
+        <MessengerCustomerChat
+          pageId="101103965543309"
+          appId="517179266738027"
+        />
+      </div>
 
       <footer>
         <ul>
