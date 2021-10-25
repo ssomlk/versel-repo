@@ -9,8 +9,9 @@ import AudioComponent2 from "../components/AudioComponent2";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default function Home() {
-  let { t } = useTranslation();
+  const { t, lang } = useTranslation();
   const router = useRouter();
+  console.log(lang);
 
   return (
     <div>
@@ -43,7 +44,7 @@ export default function Home() {
       <div>
         <h5>FB messenger</h5>
         <MessengerCustomerChat
-          pageId="101103965543309"
+          pageId={ lang == 'si-LK' ? "101103965543309" : "112660867532367"}
           appId="517179266738027"
         />
       </div>
