@@ -6,10 +6,12 @@ import Link from 'next/link'
 import { Button } from 'react-bootstrap';
 import AudioComponent from "../components/AudioComponent";
 import AudioComponent2 from "../components/AudioComponent2";
+import MessengerComponent from "../components/chat/Messenger";
 
 export default function Home() {
-  let { t } = useTranslation();
+  const { t, lang } = useTranslation();
   const router = useRouter();
+  console.log(lang);
 
   return (
     <div>
@@ -38,6 +40,8 @@ export default function Home() {
 
       <h5>Using React-audio-Player</h5>
       <AudioComponent2/>
+
+      <MessengerComponent lang={lang}/>
 
       <footer>
         <ul>
