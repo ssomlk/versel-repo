@@ -7,6 +7,7 @@ import { Button } from 'react-bootstrap';
 import AudioComponent from "../components/AudioComponent";
 import AudioComponent2 from "../components/AudioComponent2";
 import MessengerComponent from "../components/chat/Messenger";
+import Whatsapp from "../components/chat/Whatsapp";
 
 export default function Home() {
   const { t, lang } = useTranslation();
@@ -42,6 +43,7 @@ export default function Home() {
       <AudioComponent2/>
 
       <MessengerComponent lang={lang}/>
+      <Whatsapp/>
 
       <footer>
         <ul>
