@@ -18,3 +18,17 @@ a {
 h1 {
   font-weight: 100;
 }
+
+.whatsapp ._1bpcM {
+  position: absolute !important;
+  bottom: 74px !important;
+  right: 3px !important;
+  width: 60px !important;
+  height: 60px !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .whatsapp ._1bpcM {
+    margin-right: 20px !important;
+  }
+}
